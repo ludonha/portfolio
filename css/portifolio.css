@@ -1,0 +1,59 @@
+/* =========  desktop  ========== */
+@media screen and (min-width: 1440px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*background: #F5F5F5;*/
+    }
+    header {
+        width: 1440px;
+        background: #F5F5F5;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        font-family: 'Raleway', sans-serif;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F5F5F5;
+    }
+    .topo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .barra {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 32px 0;
+        color: #464646;
+    }
+    .nav{
+        justify-content: flex-end;
+        padding: 0;   
+    }
+    .referencias {
+        margin: 0 16px 0 16px;
+    }
+    .referencias, .email {
+        list-style-type: none;
+    }
+    .referencias a,.email a {
+        text-decoration: none;
+        font-weight: 500;
+        color: #464646;
+    }
+    .email a {
+        font-weight: 700;
+    }
+    .apresentacao {
+        
+    }
+
+}
