@@ -26,7 +26,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 0 5%;
+        margin: 0 8%;
     }
     .barra {
         display: flex;
@@ -39,13 +39,13 @@
         justify-content: flex-end;
         padding: 0;   
     }
-    .referencias {
-        margin: 0 16px 0 16px;
+    .referencias li{
+        margin: 0 32px 0 0;
     }
-    .referencias, .email {
+    li {
         list-style-type: none;
     }
-    .referencias a,.email a {
+    a {
         text-decoration: none;
         font-weight: 500;
         color: #464646;
@@ -53,8 +53,26 @@
     .email a {
         font-weight: 700;
     }
-    .apresentacao {
-        display: flex;
+    .apresentacao h1 {
+        font-size: 3.5em;
+        line-height: 1.1em;
     }
+    .apresentacao p {
+        font-size: 1.357em;
+        line-height: 1.2em;
+    }
+    .diretorio {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+    .diretorio li{
+        margin: 0 36px 0 0;
+    }
+    .seta {
+        position: static;
+        margin: 0 0 -5px 0;
+    }
+
 
 }
