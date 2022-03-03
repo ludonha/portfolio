@@ -53,13 +53,18 @@
     .email a {
         font-weight: 700;
     }
+    .apresentacao{
+        padding: 64px 0;
+    }
     .apresentacao h1 {
         font-size: 3.5em;
         line-height: 1.1em;
+        margin: 0;
     }
     .apresentacao p {
         font-size: 1.357em;
         line-height: 1.2em;
+        margin: 16px 0;
     }
     .diretorio {
         display: flex;
@@ -72,6 +77,9 @@
     .seta {
         position: static;
         margin: 0 0 -5px 0;
+    }
+    .foto-lucas{
+        height: 368px;
     }
 
 

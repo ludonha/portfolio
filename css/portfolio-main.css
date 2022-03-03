@@ -1,0 +1,30 @@
+@media screen and (min-width: 1440px) {
+    main {
+        width: 1440px;
+    }
+}
+.sobreMin{
+    background: #EAF2FD;
+    color: #464646;
+}
+.caixa {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30% 0 8%;
+    padding: 64px 0;
+    
+}
+.sobreMin h2 {
+    margin: 0;
+    font-size: 2em;
+    line-height: 38px;
+}
+.sobreMin p{
+    margin: 16px 0 0;
+}
+.assinatura{
+    position: static;
+    margin: 16px 0 0;
+    width: 140px;
+    height: 52px;
+}
