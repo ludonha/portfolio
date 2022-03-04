@@ -1,10 +1,11 @@
 /* =========  desktop  ========== */
+
 @media screen and (min-width: 1440px) {
     body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        /*background: #F5F5F5;*/
+        
     }
     header {
         width: 1440px;
@@ -12,75 +13,75 @@
     }
 }
 
-@media screen and (min-width: 768px){
-    body{
-        font-family: 'Raleway', sans-serif;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        background: #F5F5F5;
-    }
-    .topo {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 8%;
-    }
-    .barra {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 32px 0;
-        color: #464646;
-    }
-    .nav{
-        justify-content: flex-end;
-        padding: 0;   
-    }
-    .referencias li{
-        margin: 0 32px 0 0;
-    }
-    li {
-        list-style-type: none;
-    }
-    a {
-        text-decoration: none;
-        font-weight: 500;
-        color: #464646;
-    }
-    .email a {
-        font-weight: 700;
-    }
-    .apresentacao{
-        padding: 64px 0;
-    }
-    .apresentacao h1 {
-        font-size: 3.5em;
-        line-height: 1.1em;
-        margin: 0;
-    }
-    .apresentacao p {
-        font-size: 1.357em;
-        line-height: 1.2em;
-        margin: 16px 0;
-    }
-    .diretorio {
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-    }
-    .diretorio li{
-        margin: 0 36px 0 0;
-    }
-    .seta {
-        position: static;
-        margin: 0 0 -5px 0;
-    }
-    .foto-lucas{
-        height: 368px;
-    }
-
-
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    /*background: #F5F5F5;*/
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+}
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8%;
+}
+.barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px 0;
+}
+.nav{
+    justify-content: flex-end;
+    padding: 0;   
+}
+.referencias li{
+    margin: 0 32px 0 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #464646;
+}
+.email a {
+    font-weight: 700;
+}
+.apresentacao{
+    padding: 32px 0;
+}
+.apresentacao div{
+    padding: 61px 0;
+}
+.apresentacao h1 {
+    font-size: 3.5em;
+    line-height: 1.1em;
+    margin: 0;
+}
+.apresentacao p {
+    font-size: 1.38em;
+    line-height: 1.2em;
+}
+.diretorio {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.diretorio li{
+    margin: 0 36px 0 0;
+}
+.seta {
+    position: static;
+    margin: 0 0 -5px 0;
+}
+.foto-lucas{
+    height: 386px;
 }

@@ -1,0 +1,18 @@
+/* =========   resposividade   =========*/
+
+@media screen and (max-width: 940px) {
+    .foto-lucas{
+        height: 282px;
+    }
+    .sobreMin div{
+        margin: 0 8%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .referencias{
+        display: none;
+    }
+    .foto-lucas{
+        height: 146px;
+    }
+}
