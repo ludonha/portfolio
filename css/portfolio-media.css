@@ -9,10 +9,29 @@
     }
 }
 @media screen and (max-width: 769px) {
+    .topo,.sobreMin div {
+        margin: 0 2%;
+    }
+    h1, h2{
+        font-size: 1.38em;
+        line-height: 1.2em;
+    }
+    p, h3, .apresentacao p{
+        font-size: 16px;
+        line-height: 19px;
+    }
     .referencias{
         display: none;
     }
     .foto-lucas{
         height: 146px;
+    }
+    .sobreMin p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .skills li{
+        width: 224px;
+        height: 118px;
     }
 }
