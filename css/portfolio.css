@@ -12,6 +12,11 @@
         background: #F5F5F5;
     }
 }
+@media screen and (min-width: 770px){
+    .apresentacao div{
+        padding: 61px 0;
+    }
+}
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -28,17 +33,17 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 32px 0;
     margin: 0 8%;
 }
 .barra {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 32px 0;
+    margin: 0;
 }
-.nav{
-    justify-content: flex-end;
-    padding: 0;   
+.logo p{
+    margin: 0;
 }
 .referencias li{
     margin: 0 32px 0 0;
@@ -56,9 +61,6 @@ a {
 }
 .apresentacao{
     padding: 32px 0;
-}
-.apresentacao div{
-    padding: 61px 0;
 }
 h1 {
     font-size: 3.5em;
