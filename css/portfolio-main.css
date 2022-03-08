@@ -1,4 +1,4 @@
-/* =========   Meio  =========*/
+/* =========   Meio - desktop =========*/
 
 @media screen and (min-width: 1440px) {
     main {
@@ -38,6 +38,7 @@ h2 {
     width: 140px;
     height: 52px;
 }
+
 /* ======== seção skills e hobbies ====*/
 .skills{
     display: flex;
@@ -76,6 +77,7 @@ h2 {
     font-weight: bold;
     margin: 8px 0 0;
 }
+
 /* ======== seção formação ====*/
 .formacao{
     background: #EAF2FD;
@@ -99,7 +101,7 @@ h2 {
     width: 368px;
     height: 347px;
 }
-.academica h3{
+h3{
     font-size: 22px;
     margin: 8px 0 0;
 }
@@ -107,3 +109,5 @@ h2 {
     font-weight: 500;
 
 }
+
+/* =====  seção experiência === */

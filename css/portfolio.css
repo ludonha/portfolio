@@ -1,4 +1,4 @@
-/* =========  desktop  ========== */
+/* =========  Corpo e cabeça - desktop  ========== */
 
 @media screen and (min-width: 1440px) {
     body{
@@ -21,8 +21,10 @@
 body{
     font-family: 'Raleway', sans-serif;
     color: #464646;
-    /*background: #F5F5F5;*/
+    background: #F5F5F5;
 }
+
+/* =======  Cabeçalho  ======*/
 header{
     display: flex;
     flex-direction: column;
@@ -59,6 +61,8 @@ a {
 .email a {
     font-weight: 700;
 }
+
+/* =====  Apresentação  ====*/
 .apresentacao{
     padding: 32px 0;
 }
