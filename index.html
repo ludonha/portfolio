@@ -50,8 +50,8 @@
         </section>
     </header>
     <main>
-        <article class="sobreMin">
-            <div id="sobreMin">
+        <article class="sobreMin" id="sobreMin">
+            <div>
                 <h2>Sobre mim</h2>
                 <p>Sou uma pessoa otimista, bem humorado e organizado. Tento sempre manter o foco nos objetivos e buscando atingir minhas metas.</p>
                 <p>Gosto de estar no atento as minhas atividades no dia a dia e das metas estabelecidas, como na gestão tempo e rotina.</p>
@@ -59,7 +59,7 @@
             </div>
         </article>
         <section class="skills">
-            <div class="box" id="skills">
+            <div class="box-skills" id="skills">
                 <h2>Skills</h2>                
                 <ul>
                     <li>
@@ -76,7 +76,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="box" id="hobbies">
+            <div class="box-skills" id="hobbies">
                 <h2>Hobbies</h2>
                 <ul>
                     <li>
@@ -106,38 +106,37 @@
                 </ul>
             </div>
         </section>
-        <section class="skills formacao">
-            <div id="formacao">
-                <h2>Formação acadêmica</h2>
-                <div class="academica">
-                    <ul>
-                        <li>
-                            <img src="img/uniderp.png" alt="Uniderp">
-                        </li>
-                        <h3>Farmácia</h3>
-                        <p>2011 - Anhanguera Uniderp</p>
-                    </ul>
-                    <ul>
-                        <li>
-                            <img src="img/alura.png" alt="Alura">                    
-                        </li>
-                        <h3>Front-end - ONE</h3>
-                        <p>2022 - Alura</p>
-                    </ul>
-                </div>
+        <section class="skills formacao"  id="formacao">
+            <h2>Formação acadêmica</h2>
+            <div class="academica">
+                <ul>
+                    <li>
+                        <img src="img/uniderp.png" alt="Uniderp">
+                    </li>
+                    <h3>Farmácia</h3>
+                    <p>2011 - Anhanguera Uniderp</p>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/alura.png" alt="Alura">                    
+                    </li>
+                    <h3>Front-end - ONE</h3>
+                    <p>2022 - Alura</p>
+                </ul>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Experiência profissional</h2>
-                <img src="" alt="Decodificador">
+        <section class="projetos" id="projetos">
+            <h2>Experiência profissional</h2>
+            <div class="box-projetos">
+                <img src="img/decoder-ima.png" alt="Decodificador">                
                 <div>
                     <h3>Decodificador de texto</h3>
                     <p>Challenge Alura Codificador</p>
-                    <button>Repositório</button>
-                    <button>Ver demo</button>
+                    <button class="btn-projetos" href="https://github.com/ludonha/decoder">Repositório</button>
+                    <button class="btn-projetos" id="demo" href="">Ver demo</button>
                 </div>
             </div>
+            
         </section>
     </main>
     <footer></footer>

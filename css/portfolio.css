@@ -9,7 +9,6 @@
     }
     header {
         width: 1440px;
-        background: #F5F5F5;
     }
 }
 @media screen and (min-width: 770px){
@@ -28,7 +27,6 @@ body{
 header{
     display: flex;
     flex-direction: column;
-    background: #F5F5F5;
 }
 .topo {
     display: flex;
