@@ -20,12 +20,12 @@
     height: 406px;
 }
 .projeto__imagem--decodificador{
-    background: url(../img/decoder-ima.png) center / cover no-repeat;
+    background: url(../img/decoder1.png) center / cover no-repeat;
     width: 100%;
     height: 100%;
 }
 .projeto__imagem--jogoDaForca{
-    background: url(../img/jogo-da-forca.png) center / cover no-repeat;
+    background: url(../img/jogo-da-forca1.png) center / cover no-repeat;
     width: 100%;
     height: 100%;
 }
