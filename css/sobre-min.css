@@ -1,0 +1,23 @@
+
+/* ======== seção sobre mim ====*/
+.sobreMin{
+    background: #EAF2FD;
+}
+.sobreMin div{
+    padding: 64px 152px;
+    
+}
+h2 {
+    margin: 0;
+    font-size: 2em;
+    line-height: 38px;
+}
+.sobreMin p{
+    margin: 16px 0 0;
+}
+.assinatura{
+    position: static;
+    margin: 16px 0 0;
+    width: 140px;
+    height: 52px;
+}

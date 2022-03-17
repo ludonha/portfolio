@@ -6,50 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Lucas</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/portfolio-main.css">
-    <link rel="stylesheet" href="css/portfolio-media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio-media.css">
+    <link rel="stylesheet" href="css/portfolio-corpo.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/apresentacao.css">
+    <link rel="stylesheet" href="css/sobre-min.css">
+    <link rel="stylesheet" href="css/skills-hobbies.css">
+    <link rel="stylesheet" href="css/formacao.css">
+    <link rel="stylesheet" href="css/experiencia.css">
 </head>
 <body>
-    <header>
-        <section class="topo navegacao">
-            <div class="barra logo">
-                <img src="img/Estrela.png" alt="Estrela">
-                <p><strong>Lucas de Castro Donha</strong></p>
+    <header class="cabecalho">
+        <section class="cabecalho__barra">
+            <div class="cabecalho__conteudo conteudo">
+                <img class="logo__imagem" src="img/Estrela.png" alt="Estrela">
+                <p class="logo__texto"><strong>Lucas de Castro Donha</strong></p>
             </div>
-            <nav class="barra">
-                <ul class="barra referencias">
-                    <li><a href="#sobreMin">Sobre mim</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#formacao">Formação</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
+            <nav class="">
+                <ul class="cabecalho__conteudo conteudo">
+                    <li><a class="referencias" href="#sobreMin">Sobre mim</a></li>
+                    <li><a class="referencias" href="#skills">Skills</a></li>
+                    <li><a class="referencias" href="#hobbies">Hobbies</a></li>
+                    <li><a class="referencias" href="#formacao">Formação</a></li>
+                    <li><a class="referencias" href="#projetos">Projetos</a></li>
+                    <li><a class="referencias--email" href="#contatos">ludonha@hotmail.com</a></li>
                 </ul>
-                <ul class="barra email">
-                    <li><a href="#contatos">ludonha@hotmail.com</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section class="topo apresentacao">
-            <div>
-                <h1>Oi, meu nome é Lucas de Castro Donha e construo páginas web</h1>
-                <p>Eu sou formado em farmácia e atualmente estou participando no projeto Oracle ONE na Alura</p>
-                <ul class="apresentacao diretorio">
-                    <li><a href="https://github.com/ludonha">Github<img class="seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                    <li><a href="https://www.linkedin.com/in/lucas-donha/">Linkedin<img img class="seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                    <li><a href="#">Instagram<img img class="seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                    <li><a href="#">Currículo<img img class="seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                </ul>
-            </div>
-            <div>
-                <img class="foto-lucas" src="img/foto-lucas-perfil.png" alt="Foto do lucas">
-            </div>
         </section>
     </header>
     <main>
+        <section class="apresentacao conteudo">
+            <div class="apresentacao__caixa">
+                <h1 class="apresentacao__titulo">Oi, meu nome é Lucas de Castro Donha e construo páginas web</h1>
+                <p class="apresentacao__texto">Eu sou formado em farmácia e atualmente estou participando no projeto Oracle ONE na Alura</p>
+                <ul class="apresentacao__links conteudo">
+                    <li class="apresentacao__link"><a href="https://github.com/ludonha">Github<img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="https://www.linkedin.com/in/lucas-donha/">Linkedin<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="#">Instagram<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="#">Currículo<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                </ul>
+            </div>
+            <div><div class="apresentacao__imagem--avatar"></div></div>
+        </section>
         <article class="sobreMin">
             <div id="sobreMin">
                 <h2>Sobre mim</h2>
@@ -127,15 +127,15 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Experiência profissional</h2>
-                <img src="" alt="Decodificador">
+        <section class="projetos" id="projetos">
+            <h2>Experiência profissional</h2>
+            <div class="box-projetos">
+                <img src="img/decoder-ima.png" alt="Decodificador">                
                 <div>
                     <h3>Decodificador de texto</h3>
                     <p>Challenge Alura Codificador</p>
-                    <button>Repositório</button>
-                    <button>Ver demo</button>
+                    <button class="btn-projetos" href="https://github.com/ludonha/decoder">Repositório</button>
+                    <button class="btn-projetos" id="demo" href="">Ver demo</button>
                 </div>
             </div>
         </section>
