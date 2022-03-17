@@ -1,89 +1,9 @@
-/* =========  Corpo e cabeça - desktop  ========== */
-
-@media screen and (min-width: 1440px) {
-    body{
+/* ===========  mobile  =========*/
+@media screen and (min-width: 0px){
+    main{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
     }
-    header {
-        width: 1440px;
-        background: #F5F5F5;
-    }
-}
-@media screen and (min-width: 770px){
-    .apresentacao__caixa {
-        padding: 61px 17px 61px 0;
-    }
-}
-
-/* =========   Meio - desktop =========*/
-
-@media screen and (min-width: 1440px) {
-    main {
-        width: 1440px;
-    }
-}
-@media screen and (min-width: 940px){
-    .formacao{
-        padding: 82px;
-    }
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-}
-
-/* =========   resposividade   =========*/
-
-@media screen and (max-width: 940px) {
-    .topo{
-        margin: 0 4%;
-    }
-    .foto-lucas{
-        height: 282px;
-    }
-    .sobreMin div{
-        padding: 32px;
-    }
-    .box, .formacao{
-        padding: 32px;
-    }
-    
-}
-@media screen and (max-width: 770px) {
-    .navegacao{
-       padding: 16px 0; 
-    }
-    .referencias{
-        display: none;
-    }
-    .foto-lucas{
-        height: 146px;
-    }
-    h1, h2{
-        font-size: 1.38em;
-        line-height: 1.2em;
-    }
-    p, .apresentacao p, h3{
-        font-size: 16px;
-        line-height: 19px;
-    }
-    .sobreMin p, .academica p{
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .skills li{
-        width: 224px;
-        height: 118px;
-    }
-    .academica img{
-        width: 60%;
-    }
-}
-@media screen and (max-width: 426px){
     .apresentacao{
         display: flex;
         flex-direction: column-reverse;
@@ -122,5 +42,76 @@ main{
     .academica li{
         width: 296px;
         height: 118px;
+    }
+}
+
+/* ===========  tabletes  ===========*/
+@media screen and (min-width: 426px){
+    .navegacao{
+       padding: 16px 0; 
+    }
+    .referencias{
+        display: none;
+    }
+    .foto-lucas{
+        height: 146px;
+    }
+    h1, h2{
+        font-size: 1.38em;
+        line-height: 1.2em;
+    }
+    p, .apresentacao p, h3{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .sobreMin p, .academica p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .skills li{
+        width: 224px;
+        height: 118px;
+    }
+    .academica img{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 770px){
+    
+    .topo{
+        margin: 0 4%;
+    }
+    .foto-lucas{
+        height: 282px;
+    }
+    .sobreMin div{
+        padding: 32px;
+    }
+    .box, .formacao{
+        padding: 32px;
+    }
+}
+
+/* =========  desktop  ========== */
+@media screen and (min-width: 940px){
+    .formacao{
+        padding: 82px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    header {
+        width: 1440px;
+        background: #F5F5F5;
+    }
+    main {
+        width: 1440px;
     }
 }

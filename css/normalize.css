@@ -41,15 +41,17 @@
     font-size: 3.5em;
     margin: 0;
   }
-
+  h2 {
+    font-size: 2em;
+    line-height: 38px;
+    margin: 0;
+  }
   ul{
     padding: 0;
   }
-
   li {
     list-style-type: none;
   }
-
   /* Text-level semantics
      ========================================================================== */
   

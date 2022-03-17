@@ -3,21 +3,16 @@
 .sobreMin{
     background: #EAF2FD;
 }
-.sobreMin div{
-    padding: 64px 152px;
+.sobreMin__caixa{
+    padding: 64px 30% 64px 10%;
     
 }
-h2 {
-    margin: 0;
-    font-size: 2em;
-    line-height: 38px;
+.sobreMin__texto{
+    margin-top: 16px;
 }
-.sobreMin p{
-    margin: 16px 0 0;
-}
-.assinatura{
-    position: static;
-    margin: 16px 0 0;
+.sobreMin__assinatura {
+    background: url(../img/assinatura-lucas.png) center / cover no-repeat;
+    margin-top: 16px;
     width: 140px;
     height: 52px;
 }
