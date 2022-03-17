@@ -46,7 +46,7 @@ main{
         height: 282px;
     }
     .sobreMin div{
-        padding: 32px 32px;
+        padding: 32px;
     }
     .box, .formacao{
         padding: 32px;
@@ -83,7 +83,7 @@ main{
         width: 60%;
     }
 }
-@media screen and (max-width: 395px){
+@media screen and (max-width: 426px){
     .apresentacao{
         display: flex;
         flex-direction: column-reverse;
@@ -111,6 +111,9 @@ main{
     .skills li{
         width: 156px;
         height: 118px;
+    }
+    .skills li:nth-child(even){
+        margin: 32px 0 0;
     }
     .academica{
         display: flex;
