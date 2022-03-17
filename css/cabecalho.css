@@ -12,11 +12,6 @@
     align-items: center;
     padding: 32px 10%;
 }
-.conteudo {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-}
 .logo__texto{
     margin: 0;
 }

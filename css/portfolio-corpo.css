@@ -4,6 +4,11 @@ body{
     color: #464646;
     background: #F5F5F5;
 }
+.recipiente {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
 a {
     font-weight: 500;
     color: #464646;

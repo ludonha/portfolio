@@ -16,17 +16,17 @@
     <link rel="stylesheet" href="css/sobre-min.css">
     <link rel="stylesheet" href="css/skills-hobbies.css">
     <link rel="stylesheet" href="css/formacao.css">
-    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/projetos.css">
 </head>
 <body>
     <header class="cabecalho">
         <section class="cabecalho__barra">
-            <div class="cabecalho__conteudo conteudo">
+            <div class="cabecalho__conteudo recipiente">
                 <img class="logo__imagem" src="img/Estrela.png" alt="Estrela">
                 <p class="logo__texto"><strong>Lucas de Castro Donha</strong></p>
             </div>
             <nav class="">
-                <ul class="cabecalho__conteudo conteudo">
+                <ul class="cabecalho__conteudo recipiente">
                     <li><a class="referencias" href="#sobreMin">Sobre mim</a></li>
                     <li><a class="referencias" href="#skills">Skills</a></li>
                     <li><a class="referencias" href="#hobbies">Hobbies</a></li>
@@ -37,11 +37,11 @@
         </section>
     </header>
     <main>
-        <section class="apresentacao conteudo">
+        <section class="apresentacao recipiente">
             <div class="apresentacao__caixa">
                 <h1 class="apresentacao__titulo">Oi, meu nome é Lucas de Castro Donha e construo páginas web</h1>
                 <p class="apresentacao__texto">Eu sou formado em farmácia e atualmente estou participando no projeto Oracle ONE na Alura</p>
-                <ul class="apresentacao__links conteudo">
+                <ul class="apresentacao__links recipiente">
                     <li class="apresentacao__link"><a href="https://github.com/ludonha">Github<img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                     <li class="apresentacao__link"><a href="https://www.linkedin.com/in/lucas-donha/">Linkedin<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                     <li class="apresentacao__link"><a href="#">Instagram<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
@@ -59,84 +59,92 @@
             </div>
         </article>
         <section class="skills">
-            <div class="box-skills" id="skills">
-                <h2>Skills</h2>                
-                <ul>
-                    <li>
+            <div class="skills__caixa" id="skills">
+                <h2 class="skills__titulo tituloSecao">Skills</h2>                
+                <ul class="skills__conteudo recipiente">
+                    <li class="skills__lista lista">
                         <img src="img/html.png" alt="Html 5">
-                        <p>Html5</p>
+                        <p class="skills__texto textoSecao">Html5</p>
                     </li>
-                    <li>
+                    <li class="skills__lista lista">
                         <img src="img/css.png" alt="Css">
-                        <p>CSS</p>
+                        <p class="skills__texto textoSecao">CSS</p>
                     </li>
-                    <li>
+                    <li class="skills__lista lista">
                         <img src="img/javascript.png" alt="Java script">
-                        <p>Javascript</p>
+                        <p class="skills__texto textoSecao">Javascript</p>
                     </li>
                 </ul>
             </div>
-            <div class="box-skills" id="hobbies">
-                <h2>Hobbies</h2>
-                <ul>
-                    <li>
+            <div class="skills__caixa" id="hobbies">
+                <h2 class="hobbies__titulo tituloSecao">Hobbies</h2>
+                <ul class="skills__conteudo recipiente">
+                    <li class="skills__lista lista">
                         <img src="img/controle-de-jogo.png" alt="Jogos">
-                        <p>Jogos</p>
+                        <p class="hobbies__texto textoSecao">Jogos</p>
                     </li>
-                    <li>
+                    <li class="skills__lista lista">
                         <img src="img/bike.png" alt="Bicicleta">
-                        <p>Bicicleta</p>
+                        <p class="hobbies__texto textoSecao">Bicicleta</p>
                     </li>
-                    <li>
+                    <li class="skills__lista lista">
                         <img src="img/pescaria.png" alt="Pescar">
-                        <p>Pescar</p>
+                        <p class="hobbies__texto textoSecao">Pescar</p>
                     </li>
-                    <li>
+                    <li class="skills__lista lista">
                         <img src="img/carpintaria.png" alt="Marcenaria">
-                        <p>Marcenaria</p>
+                        <p class="hobbies__texto textoSecao">Marcenaria</p>
                     </li>
-                    <li>
+                    <li class="skills__lista lista">
                         <img src="img/tv_black.png" alt="Assistir séries">
-                        <p>Assistir séries</p>
+                        <p class="hobbies__texto textoSecao">Assistir séries</p>
                     </li>
-                    <li>
+                    <li class="skills__lista lista">
                         <img src="img/guitar.png" alt="Tocar violão">
-                        <p>Tocar violão</p>
+                        <p class="hobbies__texto textoSecao">Tocar violão</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="skills formacao"  id="formacao">
-            <h2>Formação acadêmica</h2>
-            <div class="academica">
-                <ul>
-                    <li>
+        <section class="formacao skills"  id="formacao">
+            <h2 class="formacao__titulo tituloSecao">Formação acadêmica</h2>
+            <div class="formacao__caixa recipiente">
+                <ul class="formacao__conteudo">
+                    <li class="formacao__lista lista">
                         <img src="img/uniderp.png" alt="Uniderp">
                     </li>
-                    <h3>Farmácia</h3>
-                    <p>2011 - Anhanguera Uniderp</p>
+                    <h3 class="formacao__academica tituloConteudo">Farmácia</h3>
+                    <p class="formacao__texto textoConteudo">2011 - Anhanguera Uniderp</p>
                 </ul>
                 <ul>
-                    <li>
+                    <li class="formacao__lista lista">
                         <img src="img/alura.png" alt="Alura">                    
                     </li>
-                    <h3>Front-end - ONE</h3>
-                    <p>2022 - Alura</p>
+                    <h3 class="formacao__academica tituloConteudo">Front-end - ONE</h3>
+                    <p class="formacao__texto textoConteudo">2022 - Alura</p>
                 </ul>
             </div>
         </section>
-        <section class="projetos" id="projetos">
-            <h2>Experiência profissional</h2>
-            <div class="box-projetos">
-                <img src="img/decoder-ima.png" alt="Decodificador">                
-                <div>
-                    <h3>Decodificador de texto</h3>
-                    <p>Challenge Alura Codificador</p>
-                    <button class="btn-projetos" href="https://github.com/ludonha/decoder">Repositório</button>
-                    <button class="btn-projetos" id="demo" href="">Ver demo</button>
+        <section class="projetos skills" id="projetos">
+            <h2 class="projetos__titulo tituloSecao">Experiência profissional</h2>
+            <div class="projeto__caixa recipiente">
+                <div class="projeto__imagem"><div class="projeto__imagem--decodificador"></div></div>                
+                <div class="projeto__conteudo">
+                    <h3 class="projeto__nome tituloConteudo">Decodificador de texto</h3>
+                    <p class="projeto__texto textoConteudo">Challenge Alura Codificador</p>
+                    <button class="projetos__botao" href="https://github.com/ludonha/decoder">Repositório</button>
+                    <button class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/decoder/">Ver demo</button>
                 </div>
             </div>
-            
+            <div class="projeto__caixa--reverse recipiente">
+                <div class="projeto__imagem"><div class="projeto__imagem--jogoDaForca"></div></div>                 
+                <div class="projeto__conteudo">
+                    <h3 class="projeto__nome tituloConteudo">Jogo da forca</h3>
+                    <p class="projeto__texto textoConteudo">Challenge Alura Jogo da forca</p>
+                    <button class="projetos__botao" href="https://github.com/ludonha/jogo-da-forca">Repositório</button>
+                    <button class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/jogo-da-forca/">Ver demo</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>

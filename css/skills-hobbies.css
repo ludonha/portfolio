@@ -3,37 +3,38 @@
 .skills{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background: #F5F5F5;
 }
-.box{
-    padding: 32px 0 88px;
+.skills__caixa {
+    padding: 32px 10% 88px;
 }
-.skills ul {
-    display: flex;
-    flex-direction: row;
+.skills__conteudo {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    padding: 0;
-    margin: 0;
+    padding-top: 32px;
 }
-.skills li{
+.lista {
     background: #FFFFFF;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    padding: 16px;
+}
+.skills__lista {
     align-items: flex-start;
     justify-content: flex-end;
-    padding: 16px;
-    box-sizing: border-box;
-    margin: 32px 8px 0 0;
+    margin-right: 8px;
     width: 176px;
     height: 174px;
 }
-.skills h2{
+.skills__lista:last-child{
+    margin: 0;
+}
+.tituloSecao {
     text-align: center;
 }
-.skills p{
+.textoSecao{
     font-weight: bold;
     margin: 8px 0 0;
 }

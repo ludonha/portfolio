@@ -1,0 +1,55 @@
+
+/* =====  seção experiência === */
+.projetos{
+    align-items: center;
+    padding: 32px 10%;
+}
+.projeto__caixa {
+    align-items: center;
+    padding: 32px 0;
+}
+.projeto__caixa--reverse{
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.projeto__imagem{
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    mix-blend-mode: normal;
+    padding: 10px;
+    width: 752px;
+    height: 406px;
+}
+.projeto__imagem--decodificador{
+    background: url(../img/decoder-ima.png) center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.projeto__imagem--jogoDaForca{
+    background: url(../img/jogo-da-forca.png) center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.projeto__conteudo {
+    margin-left: 6px;
+    width: 348px;
+}
+.projetos__botao{
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    margin: 8px 16px 0 0;
+    padding: 16px;
+}
+.projetos__botao:hover{
+    background: #D4E4FA;
+}
+.projetos__botao--demo{
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 16px;
+}
+
+.projetos__botao--demo:hover{
+    background: #5595E9;
+}

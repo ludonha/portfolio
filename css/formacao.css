@@ -2,31 +2,30 @@
 /* ======== seção formação ====*/
 .formacao{
     background: #EAF2FD;
+    padding: 82px 10%;
 }
-.academica{
-    display: flex;
-    flex-direction: row;
+.formacao__caixa {
     padding: 32px 0 0;
 }
-.academica ul {
+.formacao__conteudo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 8px;
-    padding: 0;
+    margin-right: 16px;
 }
-.academica li{
+.formacao__lista {
     align-items: center;
     justify-content: center;
     margin: 0;
     width: 368px;
     height: 347px;
 }
-h3{
+.tituloConteudo {
     font-size: 22px;
     margin: 8px 0 0;
 }
-.academica p{
+.textoConteudo {
     font-weight: 500;
+    margin: 8px 0 0;
 
 }
