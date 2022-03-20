@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/skills-hobbies.css">
     <link rel="stylesheet" href="css/formacao.css">
     <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -58,7 +59,7 @@
                 <div class="sobreMin__assinatura"></div>
             </div>
         </article>
-        <section class="skills">
+        <section class="skills coluna">
             <div class="skills__caixa" id="skills">
                 <h2 class="skills__titulo tituloSecao">Skills</h2>                
                 <ul class="skills__conteudo recipiente">
@@ -106,7 +107,7 @@
                 </ul>
             </div>
         </section>
-        <section class="formacao skills"  id="formacao">
+        <section class="formacao coluna"  id="formacao">
             <h2 class="formacao__titulo tituloSecao">Formação acadêmica</h2>
             <div class="formacao__caixa recipiente">
                 <ul class="formacao__conteudo">
@@ -125,9 +126,9 @@
                 </ul>
             </div>
         </section>
-        <section class="projetos skills" id="projetos">
+        <section class="projetos coluna" id="projetos">
             <h2 class="projetos__titulo tituloSecao">Experiência profissional</h2>
-            <div class="projeto__caixa recipiente">
+            <div class="projeto__caixa recipiente projetoCaixaStyle">
                 <div class="projeto__imagem"><div class="projeto__imagem--decodificador"></div></div>                
                 <div class="projeto__conteudo">
                     <h3 class="projeto__nome tituloConteudo">Decodificador de texto</h3>
@@ -136,14 +137,31 @@
                     <button class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/decoder/">Ver demo</button>
                 </div>
             </div>
-            <div class="projeto__caixa--reverse recipiente">
+            <div class="projeto__caixa--reverso recipiente projetoCaixaStyle">
                 <div class="projeto__imagem"><div class="projeto__imagem--jogoDaForca"></div></div>                 
-                <div class="projeto__conteudo">
+                <div class="projeto__conteudo--reverso">
                     <h3 class="projeto__nome tituloConteudo">Jogo da forca</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Jogo da forca</p>
                     <button class="projetos__botao" href="https://github.com/ludonha/jogo-da-forca">Repositório</button>
                     <button class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/jogo-da-forca/">Ver demo</button>
                 </div>
+            </div>
+        </section>
+        <section class="contato recipiente">
+            <div class="contato__imagem"></div>
+            <div class="contato__caixa coluna">
+                <h2 class="contato__titulo tituloSecao">Contato</h2>
+                <p class="contato__texto textoConteudo">Quer entrar em contato comigo?</p>
+                <p class="contato__texto textoConteudo">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                <form action="" class="contato__formulario coluna">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" class="formulario__nome">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" class="formulario__email">
+                    <input type="text" class="formulario__assunto">
+                    <textarea name="mensagem" id="" cols="30" rows="10" class="formulario__mensagem"></textarea>
+                    <button class="formulario__enviarMensagem">Enviar mensagem</button>
+                </form>
             </div>
         </section>
     </main>

@@ -1,22 +1,23 @@
 
 /* =====  seção experiência === */
 .projetos{
-    align-items: center;
-    padding: 32px 10%;
-}
-.projeto__caixa {
-    align-items: center;
     padding: 32px 0;
 }
-.projeto__caixa--reverse{
+.projetoCaixaStyle{
     align-items: center;
+    width: 100%;
+}
+.projeto__caixa {
+    padding: 32px 0;
+}
+.projeto__caixa--reverso{
     flex-direction: row-reverse;
 }
 .projeto__imagem{
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     mix-blend-mode: normal;
-    padding: 10px;
-    width: 752px;
+    padding: 16px;
+    width: 70%;
     height: 406px;
 }
 .projeto__imagem--decodificador{
@@ -30,8 +31,11 @@
     height: 100%;
 }
 .projeto__conteudo {
-    margin-left: 6px;
-    width: 348px;
+    width: 30%;
+}
+.projeto__conteudo--reverso {
+    padding-left: 16px;
+    width: calc(30% - 16px);
 }
 .projetos__botao{
     color: #2A7AE4;

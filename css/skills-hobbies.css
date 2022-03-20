@@ -1,18 +1,12 @@
 
 /* ======== seção skills e hobbies ====*/
-.skills{
-    display: flex;
-    flex-direction: column;
-    background: #F5F5F5;
-}
 .skills__caixa {
-    padding: 32px 10% 88px;
+    padding: 32px 0 88px;
 }
 .skills__conteudo {
     flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-start;
-    padding-top: 32px;
+    padding-top: 24px;
 }
 .lista {
     background: #FFFFFF;
@@ -25,11 +19,12 @@
     align-items: flex-start;
     justify-content: flex-end;
     margin-right: 8px;
+    margin-top: 8px;
     width: 176px;
     height: 174px;
 }
 .skills__lista:last-child{
-    margin: 0;
+    margin: 8px 0 0;
 }
 .tituloSecao {
     text-align: center;

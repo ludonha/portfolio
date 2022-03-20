@@ -1,16 +1,16 @@
 
 /* =======  Cabeçalho  ======*/
 .cabecalho{
+    background: #F5F5F5;
     display: flex;
     flex-direction: column;
-    background: #F5F5F5;
 }
 .cabecalho__barra {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 32px 10%;
+    padding: 32px 0;
 }
 .logo__texto{
     margin: 0;

@@ -1,0 +1,25 @@
+.contato{
+    padding: 64px 0;
+    background: #eaf2FD;
+}
+.contato__imagem {
+    background: url(../img/contato-imagem.png) center / cover no-repeat;
+    height: 590px;
+    width: 40%;
+}
+.contato__caixa{
+    align-items: flex-start;
+    padding-left: 16PX;
+    width: 60%;
+}
+.contato__formulario{
+    align-items: initial;
+    width: 100%;
+}
+.contato__texto:nth-of-type(2){
+    margin: 0;
+    padding-bottom: 32px;
+}
+.formulario__nome, .formulario__email, .formulario__assunto{
+    margin-bottom: 32px;
+}
