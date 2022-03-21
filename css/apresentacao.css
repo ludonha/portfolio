@@ -1,7 +1,7 @@
 
 /* =====  Apresentação  ====*/
 .apresentacao {
-    padding: 32px 0;
+    padding: 32px 9%;
 }
 .apresentacao__caixa {
     padding: 61px 17px 61px 0;
@@ -25,6 +25,7 @@
 }
 .apresentacao__imagem--avatar{
     background: url(../img/foto-lucas-perfil.png) center / cover no-repeat;
-    width: 386px;
+    
     height: 386px;
+    width: 386px;
 }

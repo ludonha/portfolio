@@ -29,6 +29,8 @@
    */
   
   main {
+    margin: 0;
+    padding: 0;
     display: block;
   }
   
@@ -43,9 +45,10 @@
   }
   h2 {
     font-size: 2em;
-    line-height: 38px;
     margin: 0;
   }
+  h3,
+  p,
   ul{
     margin: 0;
     padding: 0;

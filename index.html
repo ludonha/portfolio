@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Lucas</title>
+    <base target="_blank">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,10 +19,11 @@
     <link rel="stylesheet" href="css/formacao.css">
     <link rel="stylesheet" href="css/projetos.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <section class="cabecalho__barra">
+    <header class="cabecalho coluna">
+        <section class="cabecalho__barra recipiente">
             <div class="cabecalho__conteudo recipiente">
                 <img class="logo__imagem" src="img/Estrela.png" alt="Estrela">
                 <p class="logo__texto"><strong>Lucas de Castro Donha</strong></p>
@@ -37,7 +39,7 @@
                 </ul>
         </section>
     </header>
-    <main>
+    <main class="meio coluna">
         <section class="apresentacao recipiente">
             <div class="apresentacao__caixa">
                 <h1 class="apresentacao__titulo">Oi, meu nome é Lucas de Castro Donha e construo páginas web</h1>
@@ -46,7 +48,7 @@
                     <li class="apresentacao__link"><a href="https://github.com/ludonha">Github<img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                     <li class="apresentacao__link"><a href="https://www.linkedin.com/in/lucas-donha/">Linkedin<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                     <li class="apresentacao__link"><a href="#">Instagram<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                    <li class="apresentacao__link"><a href="#">Currículo<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="cv/Curriculum-vitae.pdf">Currículo<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                 </ul>
             </div>
             <div><div class="apresentacao__imagem--avatar"></div></div>
@@ -59,7 +61,7 @@
                 <div class="sobreMin__assinatura"></div>
             </div>
         </article>
-        <section class="skills coluna">
+        <section class="skills">
             <div class="skills__caixa" id="skills">
                 <h2 class="skills__titulo tituloSecao">Skills</h2>                
                 <ul class="skills__conteudo recipiente">
@@ -107,10 +109,10 @@
                 </ul>
             </div>
         </section>
-        <section class="formacao coluna"  id="formacao">
+        <section class="formacao"  id="formacao">
             <h2 class="formacao__titulo tituloSecao">Formação acadêmica</h2>
             <div class="formacao__caixa recipiente">
-                <ul class="formacao__conteudo">
+                <ul class="formacao__conteudo coluna">
                     <li class="formacao__lista lista">
                         <img src="img/uniderp.png" alt="Uniderp">
                     </li>
@@ -126,45 +128,52 @@
                 </ul>
             </div>
         </section>
-        <section class="projetos coluna" id="projetos">
+        <section class="projetos" id="projetos">
             <h2 class="projetos__titulo tituloSecao">Experiência profissional</h2>
             <div class="projeto__caixa recipiente projetoCaixaStyle">
                 <div class="projeto__imagem"><div class="projeto__imagem--decodificador"></div></div>                
-                <div class="projeto__conteudo">
+                <div class="projeto__conteudo coluna">
                     <h3 class="projeto__nome tituloConteudo">Decodificador de texto</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Codificador</p>
-                    <button class="projetos__botao" href="https://github.com/ludonha/decoder">Repositório</button>
-                    <button class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/decoder/">Ver demo</button>
+                    <div class="projeto__link recipiente">
+                        <a class="projetos__botao" href="https://github.com/ludonha/decoder">Repositório</a>
+                        <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/decoder/">Ver demo</a>
+                    </div>
                 </div>
             </div>
             <div class="projeto__caixa--reverso recipiente projetoCaixaStyle">
                 <div class="projeto__imagem"><div class="projeto__imagem--jogoDaForca"></div></div>                 
-                <div class="projeto__conteudo--reverso">
+                <div class="projeto__conteudo--reverso coluna">
                     <h3 class="projeto__nome tituloConteudo">Jogo da forca</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Jogo da forca</p>
-                    <button class="projetos__botao" href="https://github.com/ludonha/jogo-da-forca">Repositório</button>
-                    <button class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/jogo-da-forca/">Ver demo</button>
+                    <div class="projeto__link recipiente">
+                        <a class="projetos__botao" href="https://github.com/ludonha/jogo-da-forca/">Repositório</a>
+                        <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/jogo-da-forca/">Ver demo</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="contato recipiente">
+        <section class="contato recipiente" id="contatos">
             <div class="contato__imagem"></div>
             <div class="contato__caixa coluna">
                 <h2 class="contato__titulo tituloSecao">Contato</h2>
                 <p class="contato__texto textoConteudo">Quer entrar em contato comigo?</p>
                 <p class="contato__texto textoConteudo">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                 <form action="" class="contato__formulario coluna">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" class="formulario__nome">
-                    <label for="email">E-mail</label>
-                    <input type="text" name="email" class="formulario__email">
-                    <input type="text" class="formulario__assunto">
-                    <textarea name="mensagem" id="" cols="30" rows="10" class="formulario__mensagem"></textarea>
-                    <button class="formulario__enviarMensagem">Enviar mensagem</button>
+                    <label class="formulario__label" for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" class="formulario__requerido" required>
+                    <label class="formulario__label" for="email">E-mail</label>
+                    <input type="email" id="email" name="email" class="formulario__requerido" required>
+                    <input type="text" class="formulario__mensagem" placeholder="Assunto" required>
+                    <textarea name="mensagem" id="" cols="30" rows="5" class="formulario__mensagem" placeholder="Mensassem" required></textarea>
+                    <button class="formulario__botao" data-formulario-botao>Enviar mensagem</button>
                 </form>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Lucas Donha</p>
+        <p class="rodape__texto">2022</p>
+    </footer>
 </body>
 </html>

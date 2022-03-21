@@ -2,9 +2,10 @@
 /* ======== seção sobre mim ====*/
 .sobreMin{
     background: #EAF2FD;
+    padding: 0 9%;
 }
 .sobreMin__caixa{
-    padding: 64px 20% 64px 0;
+    padding: 64px 30% 64px 0;
     
 }
 .sobreMin__texto{

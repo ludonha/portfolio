@@ -1,20 +1,16 @@
 
 /* =======  Cabeçalho  ======*/
 .cabecalho{
+    align-items: initial;
     background: #F5F5F5;
-    display: flex;
-    flex-direction: column;
+    padding: 0 9%;
 }
 .cabecalho__barra {
     align-items: center;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding: 32px 0;
 }
-.logo__texto{
-    margin: 0;
-}
+
 .referencias {
     margin: 0 32px 0 0;
 }
