@@ -42,7 +42,7 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     line-height: 20px;
-    margin-bottom: 32px;
+    margin-bottom: 32px
 }
 .formulario__requerido:focus, .formulario__mensagem:focus {
     outline: none;
@@ -63,4 +63,5 @@
 }
 .formulario__botao:hover{
     background: #5595E9;
+    cursor: pointer;
 }

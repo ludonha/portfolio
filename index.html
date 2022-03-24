@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Lucas</title>
-    <base target="_blank">
+    <!-- <base target="_blank"> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -159,14 +159,14 @@
                 <h2 class="contato__titulo tituloSecao">Contato</h2>
                 <p class="contato__texto textoConteudo">Quer entrar em contato comigo?</p>
                 <p class="contato__texto textoConteudo">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                <form action="" class="contato__formulario coluna">
-                    <label class="formulario__label" for="nome">Nome</label>
-                    <input type="text" id="nome" name="nome" class="formulario__requerido" required>
-                    <label class="formulario__label" for="email">E-mail</label>
-                    <input type="email" id="email" name="email" class="formulario__requerido" required>
-                    <input type="text" class="formulario__mensagem" placeholder="Assunto" required>
-                    <textarea name="mensagem" id="" cols="30" rows="5" class="formulario__mensagem" placeholder="Mensassem" required></textarea>
-                    <button class="formulario__botao" data-formulario-botao>Enviar mensagem</button>
+                <form action="" method="" class="contato__formulario coluna" id="formulario">
+                    <label class="formulario__label" id="nome-label" for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" maxlength="50" class="formulario__requerido" data-input-nome required>
+                    <label class="formulario__label" id="email-label" for="email">E-mail</label>
+                    <input type="email" id="email" name="email" class="formulario__requerido" data-input-email required>
+                    <input type="text" class="formulario__mensagem" id="assunto" maxlength="50" placeholder="Assunto" required>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" maxlength="250" class="formulario__mensagem" placeholder="Mensassem" required></textarea>
+                    <button type="submit" class="formulario__botao" id="formulario__botao" data-form-botao>Enviar mensagem</button>
                 </form>
             </div>
         </section>
@@ -175,5 +175,7 @@
         <p class="rodape__texto">Desenvolvido por Lucas Donha</p>
         <p class="rodape__texto">2022</p>
     </footer>
+    <script src="js/validacao-formulario.js"></script>
+    <script src="js/style-formolario.js"></script>
 </body>
 </html>
