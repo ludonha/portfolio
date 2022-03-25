@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Lucas</title>
+    <link rel="shortcut icon" href="img/icon-contato.ico">
     <!-- <base target="_blank"> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -45,10 +46,10 @@
                 <h1 class="apresentacao__titulo">Oi, meu nome é Lucas de Castro Donha e construo páginas web</h1>
                 <p class="apresentacao__texto">Eu sou formado em farmácia e atualmente estou participando no projeto Oracle ONE na Alura</p>
                 <ul class="apresentacao__links recipiente">
-                    <li class="apresentacao__link"><a href="https://github.com/ludonha">Github<img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                    <li class="apresentacao__link"><a href="https://www.linkedin.com/in/lucas-donha/">Linkedin<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                    <li class="apresentacao__link"><a href="#">Instagram<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
-                    <li class="apresentacao__link"><a href="cv/Curriculum-vitae.pdf">Currículo<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="https://github.com/ludonha" target="_blank">Github<img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="https://www.linkedin.com/in/lucas-donha/" target="_blank">Linkedin<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="#" target="_blank">Instagram<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
+                    <li class="apresentacao__link"><a href="cv/Curriculum-vitae.pdf" target="_blank">Currículo<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                 </ul>
             </div>
             <div><div class="apresentacao__imagem--avatar"></div></div>
@@ -136,8 +137,8 @@
                     <h3 class="projeto__nome tituloConteudo">Decodificador de texto</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Codificador</p>
                     <div class="projeto__link recipiente">
-                        <a class="projetos__botao" href="https://github.com/ludonha/decoder">Repositório</a>
-                        <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/decoder/">Ver demo</a>
+                        <a class="projetos__botao" href="https://github.com/ludonha/decoder" target="_blank">Repositório</a>
+                        <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/decoder/" target="_blank">Ver demo</a>
                     </div>
                 </div>
             </div>
@@ -147,8 +148,8 @@
                     <h3 class="projeto__nome tituloConteudo">Jogo da forca</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Jogo da forca</p>
                     <div class="projeto__link recipiente">
-                        <a class="projetos__botao" href="https://github.com/ludonha/jogo-da-forca/">Repositório</a>
-                        <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/jogo-da-forca/">Ver demo</a>
+                        <a class="projetos__botao" href="https://github.com/ludonha/jogo-da-forca/" target="_blank">Repositório</a>
+                        <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/jogo-da-forca/" target="_blank">Ver demo</a>
                     </div>
                 </div>
             </div>
@@ -160,13 +161,15 @@
                 <p class="contato__texto textoConteudo">Quer entrar em contato comigo?</p>
                 <p class="contato__texto textoConteudo">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                 <form action="" method="" class="contato__formulario coluna" id="formulario">
-                    <label class="formulario__label" id="nome-label" for="nome">Nome</label>
-                    <input type="text" id="nome" name="nome" maxlength="50" class="formulario__requerido" data-input-nome required>
-                    <label class="formulario__label" id="email-label" for="email">E-mail</label>
-                    <input type="email" id="email" name="email" class="formulario__requerido" data-input-email required>
-                    <input type="text" class="formulario__mensagem" id="assunto" maxlength="50" placeholder="Assunto" required>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" maxlength="250" class="formulario__mensagem" placeholder="Mensassem" required></textarea>
-                    <button type="submit" class="formulario__botao" id="formulario__botao" data-form-botao>Enviar mensagem</button>
+                    <fieldset class="contato__formulario coluna">
+                        <label class="formulario__label" id="nome-label" for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" maxlength="50" class="formulario__requerido" data-input-nome required>
+                        <label class="formulario__label" id="email-label" for="email">E-mail</label>
+                        <input type="email" id="email" name="email" class="formulario__requerido" data-input-email required>
+                        <input type="text" class="formulario__mensagem" id="assunto" maxlength="50" placeholder="Assunto" required>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="5" maxlength="250" class="formulario__mensagem" placeholder="Mensassem" required></textarea>
+                        <button type="submit" class="formulario__botao" id="formulario__botao" data-form-botao>Enviar mensagem</button>
+                    </fieldset>
                 </form>
             </div>
         </section>
