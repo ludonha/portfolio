@@ -3,12 +3,11 @@
 .cabecalho{
     align-items: initial;
     background: #F5F5F5;
-    padding: 0 9%;
+    
 }
 .cabecalho__barra {
     align-items: center;
     justify-content: space-between;
-    padding: 32px 0;
 }
 
 .referencias {
@@ -16,6 +15,38 @@
 }
 
 .referencias--email {
-    font-weight: 700;
+    font-size: 14px;
     margin: 0;
+}
+/* ===========  mobile  =========*/
+@media screen and (min-width: 0px){
+    .cabecalho{
+        padding: 16px;
+    }
+    .referencias{
+        display: none;
+    }
+}
+/* ===========  tabletes  ===========*/
+@media screen and (min-width: 768px){
+    .cabecalho{
+        padding: 16px 32px;
+    }
+    .referencias--email {
+        font-size: 16px ;
+        font-weight: 700;
+    }
+
+}
+/* =========  desktop  ========== */
+@media screen and (min-width: 1024px){
+    .cabecalho{
+        padding: 32px 9%;
+    }
+    /* .cabecalho__barra{
+        padding: 32px 0;
+    } */
+    .referencias{
+        display: flex;
+    }
 }

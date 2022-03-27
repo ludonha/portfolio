@@ -24,13 +24,13 @@
 </head>
 <body>
     <header class="cabecalho coluna">
-        <section class="cabecalho__barra recipiente">
-            <div class="cabecalho__conteudo recipiente">
+        <section class="cabecalho__barra container">
+            <div class="cabecalho__conteudo container">
                 <img class="logo__imagem" src="img/Estrela.png" alt="Estrela">
-                <p class="logo__texto"><strong>Lucas de Castro Donha</strong></p>
+                <p class="logo__texto paragrafo__geral"><strong>Lucas de Castro Donha</strong></p>
             </div>
             <nav class="">
-                <ul class="cabecalho__conteudo recipiente">
+                <ul class="cabecalho__conteudo container">
                     <li><a class="referencias" href="#sobreMin">Sobre mim</a></li>
                     <li><a class="referencias" href="#skills">Skills</a></li>
                     <li><a class="referencias" href="#hobbies">Hobbies</a></li>
@@ -41,11 +41,11 @@
         </section>
     </header>
     <main class="meio coluna">
-        <section class="apresentacao recipiente">
+        <section class="apresentacao">
             <div class="apresentacao__caixa">
                 <h1 class="apresentacao__titulo">Oi, meu nome é Lucas de Castro Donha e construo páginas web</h1>
-                <p class="apresentacao__texto">Eu sou formado em farmácia e atualmente estou participando no projeto Oracle ONE na Alura</p>
-                <ul class="apresentacao__links recipiente">
+                <p class="apresentacao__texto paragrafo__geral">Eu sou formado em farmácia e atualmente estou participando no projeto Oracle ONE na Alura</p>
+                <ul class="apresentacao__links container">
                     <li class="apresentacao__link"><a href="https://github.com/ludonha" target="_blank">Github<img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                     <li class="apresentacao__link"><a href="https://www.linkedin.com/in/lucas-donha/" target="_blank">Linkedin<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
                     <li class="apresentacao__link"><a href="#" target="_blank">Instagram<img img class="apresentacao__link--seta" src="img/arrow_back_black.png" alt="Seta"></a></li>
@@ -57,15 +57,19 @@
         <article class="sobreMin">
             <div class="sobreMin__caixa" id="sobreMin">
                 <h2 class="sobreMin__titulo">Sobre mim</h2>
-                <p class="sobreMin__texto">Sou uma pessoa otimista, bem humorado e organizado. Tento sempre manter o foco nos objetivos e buscando atingir minhas metas.</p>
-                <p class="sobreMin__texto">Gosto de estar no atento as minhas atividades no dia a dia e das metas estabelecidas, como na gestão tempo e rotina.</p>
+                <p class="sobreMin__texto paragrafo__geral">Nasci na cidade de Aquidauana, Mato Grosso do Sul e hoje moro em Jataí, Goiás. Tenho 34 anos, me formei em farmácia em 2011 e atuei por 7 anos na área, trabalhei em redes de farmácia e drogaria, como também em laboratório de análises clínicas.</p>
+                <p class="sobreMin__texto paragrafo__geral">Sou uma pessoa otimista, bem humorado e organizado. E Pai e esposo presente. Goste que compartilhar meu tempo junto da família, sempre que estou em casa. Procuro me atualizar diariamente sobre como educar, a me comunicar e a lidar com situações desafiadoras. </p>
                 <div class="sobreMin__assinatura"></div>
             </div>
         </article>
         <section class="skills">
             <div class="skills__caixa" id="skills">
                 <h2 class="skills__titulo tituloSecao">Skills</h2>                
-                <ul class="skills__conteudo recipiente">
+                <ul class="skills__conteudo container">
+                    <li class="skills__lista lista">
+                        <img src="img/farmacia.png" alt="Java script">
+                        <p class="skills__texto textoSecao">Farmácia</p>
+                    </li>
                     <li class="skills__lista lista">
                         <img src="img/html.png" alt="Html 5">
                         <p class="skills__texto textoSecao">Html5</p>
@@ -82,7 +86,7 @@
             </div>
             <div class="skills__caixa" id="hobbies">
                 <h2 class="hobbies__titulo tituloSecao">Hobbies</h2>
-                <ul class="skills__conteudo recipiente">
+                <ul class="skills__conteudo container">
                     <li class="skills__lista lista">
                         <img src="img/controle-de-jogo.png" alt="Jogos">
                         <p class="hobbies__texto textoSecao">Jogos</p>
@@ -112,7 +116,7 @@
         </section>
         <section class="formacao"  id="formacao">
             <h2 class="formacao__titulo tituloSecao">Formação acadêmica</h2>
-            <div class="formacao__caixa recipiente">
+            <div class="formacao__caixa container">
                 <ul class="formacao__conteudo coluna">
                     <li class="formacao__lista lista">
                         <img src="img/uniderp.png" alt="Uniderp">
@@ -131,30 +135,30 @@
         </section>
         <section class="projetos" id="projetos">
             <h2 class="projetos__titulo tituloSecao">Experiência profissional</h2>
-            <div class="projeto__caixa recipiente projetoCaixaStyle">
+            <div class="projeto__caixa container projetoCaixaStyle">
                 <div class="projeto__imagem"><div class="projeto__imagem--decodificador"></div></div>                
                 <div class="projeto__conteudo coluna">
                     <h3 class="projeto__nome tituloConteudo">Decodificador de texto</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Codificador</p>
-                    <div class="projeto__link recipiente">
+                    <div class="projeto__link container">
                         <a class="projetos__botao" href="https://github.com/ludonha/decoder" target="_blank">Repositório</a>
                         <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/decoder/" target="_blank">Ver demo</a>
                     </div>
                 </div>
             </div>
-            <div class="projeto__caixa--reverso recipiente projetoCaixaStyle">
+            <div class="projeto__caixa--reverso container projetoCaixaStyle">
                 <div class="projeto__imagem"><div class="projeto__imagem--jogoDaForca"></div></div>                 
                 <div class="projeto__conteudo--reverso coluna">
                     <h3 class="projeto__nome tituloConteudo">Jogo da forca</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Jogo da forca</p>
-                    <div class="projeto__link recipiente">
+                    <div class="projeto__link container">
                         <a class="projetos__botao" href="https://github.com/ludonha/jogo-da-forca/" target="_blank">Repositório</a>
                         <a class="projetos__botao--demo" id="demo" href="https://ludonha.github.io/jogo-da-forca/" target="_blank">Ver demo</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="contato recipiente" id="contatos">
+        <section class="contato container" id="contatos">
             <div class="contato__imagem"></div>
             <div class="contato__caixa coluna">
                 <h2 class="contato__titulo tituloSecao">Contato</h2>

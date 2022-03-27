@@ -1,21 +1,8 @@
 
 /* =====  Apresentação  ====*/
-.apresentacao {
-    padding: 32px 9%;
-}
-.apresentacao__caixa {
-    padding: 61px 17px 61px 0;
-}
+
 .apresentacao__titulo {
-    line-height: 1.1em;
-}
-.apresentacao__texto {
-    font-size: 1.38em;
-    line-height: 1.2em;
-    margin: 24px 0;
-}
-.apresentacao__link {
-    margin: 0 36px 0 0;
+    line-height: 1.8rem;
 }
 .apresentacao__link:nth-child(4) {
     margin: 0;
@@ -25,7 +12,69 @@
 }
 .apresentacao__imagem--avatar{
     background: url(../img/foto-lucas-perfil.png) center / cover no-repeat;
+    margin-bottom: 16px;
+
+    height: 98px;
+    width: 98px;
     
-    height: 386px;
-    width: 386px;
+}
+/* ===========  mobile  =========*/
+@media screen and (min-width: 0px){
+    .apresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 16px;
+    }
+    .apresentacao__texto {
+        margin: 16px 0;
+    }
+    .apresentacao__link {
+        font-size: 0.88rem;
+        margin: 0;
+    }
+}
+/* ===========  tabletes  ===========*/
+@media screen and (min-width: 768px){
+    .apresentacao {
+        align-items: center;
+        flex-direction: row;
+        padding: 32px;
+    }
+    .apresentacao__texto {
+        margin: 8px 0;
+    }
+    .apresentacao__link {
+        font-size: 1rem;
+        margin: 0 36px 0 0;
+    }
+    .apresentacao__imagem--avatar{
+        margin-bottom: 0;
+
+        height: 146px;
+        width: 146px;
+    }
+
+}
+/* =========  desktop  ========== */
+@media screen and (min-width: 1024px){
+    .apresentacao {
+        padding: 32px 9%;
+    }
+    .apresentacao__caixa {
+        padding: 61px 17px 61px 0;
+    }
+    .apresentacao__titulo {
+        font-size: 3.4rem;
+        line-height: 3.8rem;
+    }
+    .apresentacao__texto {
+        font-size: 1.38rem;
+        line-height: 2rem;       ;
+        margin: 24px 0;
+    }
+    .apresentacao__imagem--avatar{
+
+        height: 386px;
+        width: 386px;
+    }
 }
