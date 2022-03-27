@@ -4,20 +4,6 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.lista {
-    background: #FFFFFF;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-}
-.lista:hover{
-    transform: scale(1.08);
-    transition: 500ms;
-}
-.lista:active{
-    border: 1px solid #10468d;
-}
 .skill__lista {
     align-items: flex-start;
     justify-content: flex-end;

@@ -2,28 +2,40 @@
 /* ======== seção formação ====*/
 .formacao{
     background: #EAF2FD;
-    padding: 82px 9%;
+    padding: 32px;
 }
 .formacao__caixa {
-    justify-content: center;
-    padding: 32px 0 0;
+    align-items: center;
+    padding-top: 16px;
 }
-.formacao__conteudo {
-    margin-right: 16px;
+.formacao__conteudo{
+    margin-top: 16px;
 }
 .formacao__lista {
     align-items: center;
     justify-content: center;
-    margin: 0;
-    width: 368px;
-    height: 347px;
+
+    height: 130px;
+    width: 296px;
 }
-.tituloConteudo {
-    font-size: 22px;
-    margin-top: 8px;
-}
-.textoConteudo {
-    font-weight: 500;
-    margin-top: 8px;
+/* ===========  tabletes  ===========*/
+@media screen and (min-width: 768px){
+    .formacao__caixa {
+        flex-direction: row;
+    }
+    .formacao__conteudo{
+        margin-right: 16px;
+    }
 
 }
+/* =========  desktop  ========== */
+@media screen and (min-width: 1024px){
+    .formacao{
+        padding: 82px 9%;
+    }
+    .formacao__lista {
+        
+        height: 347px;
+        width: 368px;
+    }
+} 

@@ -44,6 +44,9 @@
         flex-direction: row;
         padding: 32px;
     }
+    .apresentacao__caixa {
+        padding-right: 32px;
+    }
     .apresentacao__texto {
         margin: 8px 0;
     }

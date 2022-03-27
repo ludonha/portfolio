@@ -1,0 +1,10 @@
+/* ======= Display's ======= */
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}

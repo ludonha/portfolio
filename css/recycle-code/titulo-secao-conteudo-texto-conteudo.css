@@ -1,0 +1,23 @@
+
+/* =========  Style titulo seção e conteudo, texto conteudo */
+.tituloSecao {
+    text-align: center;
+}
+.tituloConteudo {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+.textoConteudo {
+    font-size: .88rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
+/* =========  desktop  ========== */
+@media screen and (min-width: 1024px){
+    .tituloConteudo {
+        font-size: 1.38rem;
+    }
+    .textoConteudo {
+        font-size: 1rem;
+    }
+}
