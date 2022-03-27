@@ -25,6 +25,10 @@
         flex-direction: column-reverse;
         padding: 16px;
     }
+    .paragrafo__inicio {
+        font-size: 0.88rem;
+        line-height: 1.5rem;
+    }
     .apresentacao__texto {
         margin: 16px 0;
     }
@@ -66,6 +70,10 @@
     .apresentacao__titulo {
         font-size: 3.4rem;
         line-height: 3.8rem;
+    }
+    .paragrafo__inicio {
+        font-size: 1rem;
+        line-height: 1.8rem;
     }
     .apresentacao__texto {
         font-size: 1.38rem;
