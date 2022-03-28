@@ -1,0 +1,40 @@
+
+/* =====  Apresentação  ====*/
+.apresentacao {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 16px;
+}
+
+.apresentacao__titulo {
+    line-height: 1.8rem;
+}
+.apresentacao__texto {
+    margin: 16px 0;
+}
+.paragrafo__inicio {
+    font-size: 0.88rem;
+    line-height: 1.5rem;
+}
+
+/* ======= Links ======== */
+.apresentacao__link {
+    font-size: 0.88rem;
+    margin: 0;
+}
+.apresentacao__link:nth-child(4) {
+    margin: 0;
+}
+.apresentacao__link--seta {
+    margin: 0 0 -5px 5px;
+}
+
+/* =======  Imagem avatar ======= */
+.apresentacao__imagem--avatar{
+    background: url(../../img/foto-lucas-perfil.png) center / cover no-repeat;
+    margin-bottom: 16px;
+
+    height: 98px;
+    width: 98px;
+    
+}

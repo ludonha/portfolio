@@ -33,6 +33,9 @@
     .formacao{
         padding: 82px 9%;
     }
+    .formacao__caixa {
+        justify-content: center;
+    }
     .formacao__lista {
         
         height: 347px;

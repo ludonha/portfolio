@@ -1,0 +1,36 @@
+/* ===========  tabletes  ===========*/
+@media screen and (min-width: 768px){
+    .projeto__imagem{
+        height: 320px;
+    }
+} 
+/* =========  desktop  ========== */
+@media screen and (min-width: 1024px){
+    .projetos{
+        padding: 32px 9%;
+    }
+    .projeto__caixa {
+        margin: 0;
+    }
+    .projeto__caixa--row {
+        flex-direction: row;
+        padding: 32px 0;
+    }
+    .projeto__caixa--reverse {
+        flex-direction: row-reverse;
+    }
+    .projeto__imagem{
+        height: 406px;
+        width: 70%;
+    }
+    .projeto__imagem--reverse{
+        width: calc(70% - 16px);
+    }
+    .projeto__conteudo {
+        width: 30%;
+    }
+    .projeto__conteudo--reverso {
+        padding-left: 16px;
+        width: 30%;
+    }
+} 

@@ -17,13 +17,18 @@
     <link rel="stylesheet" href="css/recycle-code/lista.css">
     <link rel="stylesheet" href="css/recycle-code/titulo-secao-conteudo-texto-conteudo.css">
     <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/apresentacao.css">
+    <link rel="stylesheet" href="css/apresentacao/apresentacao.css">
+    <link rel="stylesheet" href="css/apresentacao/apresentacao-midia.css">
     <link rel="stylesheet" href="css/sobre-min.css">
     <link rel="stylesheet" href="css/lista.css">
     <link rel="stylesheet" href="css/skills-hobbies.css">
     <link rel="stylesheet" href="css/formacao.css">
-    <link rel="stylesheet" href="css/projetos.css">
-    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/projetos/projetos.css">
+    <link rel="stylesheet" href="css/projetos/projetos-imagens.css">
+    <link rel="stylesheet" href="css/projetos/projeto-midia.css">
+    <link rel="stylesheet" href="css/contato/contato.css">
+    <link rel="stylesheet" href="css/contato/formulario.css">
+    <link rel="stylesheet" href="css/contato/contato-midia.css">
     <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
@@ -139,9 +144,9 @@
         </section>
         <section class="projetos" id="projetos">
             <h2 class="projetos__titulo tituloSecao">Experiência profissional</h2>
-            <div class="projeto__caixa container projetoCaixaStyle">
+            <div class="projeto__caixa coluna projeto__caixa--row">
                 <div class="projeto__imagem"><div class="projeto__imagem--decodificador"></div></div>                
-                <div class="projeto__conteudo coluna">
+                <div class="projeto__conteudo">
                     <h3 class="projeto__nome tituloConteudo">Decodificador de texto</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Codificador</p>
                     <div class="projeto__link container">
@@ -150,9 +155,9 @@
                     </div>
                 </div>
             </div>
-            <div class="projeto__caixa--reverso container projetoCaixaStyle">
-                <div class="projeto__imagem"><div class="projeto__imagem--jogoDaForca"></div></div>                 
-                <div class="projeto__conteudo--reverso coluna">
+            <div class="projeto__caixa coluna projeto__caixa--reverse">
+                <div class="projeto__imagem projeto__imagem--reverse"><div class="projeto__imagem--jogoDaForca"></div></div>                 
+                <div class="projeto__conteudo projeto__conteudo--reverso">
                     <h3 class="projeto__nome tituloConteudo">Jogo da forca</h3>
                     <p class="projeto__texto textoConteudo">Challenge Alura Jogo da forca</p>
                     <div class="projeto__link container">
@@ -162,12 +167,12 @@
                 </div>
             </div>
         </section>
-        <section class="contato container" id="contatos">
+        <section class="contato" id="contatos">
             <div class="contato__imagem"></div>
             <div class="contato__caixa coluna">
                 <h2 class="contato__titulo tituloSecao">Contato</h2>
-                <p class="contato__texto textoConteudo">Quer entrar em contato comigo?</p>
-                <p class="contato__texto textoConteudo">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                <p class="contato__texto">Quer entrar em contato comigo?</p>
+                <p class="contato__texto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                 <form action="" method="" class="contato__formulario coluna" id="formulario">
                     <fieldset class="contato__formulario coluna">
                         <label class="formulario__label" id="nome-label" for="nome">Nome</label>
@@ -186,7 +191,6 @@
         <p class="rodape__texto">Desenvolvido por Lucas Donha</p>
         <p class="rodape__texto">2022</p>
     </footer>
-    <script src="js/validacao-formulario.js"></script>
-    <script src="js/style-formolario.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>

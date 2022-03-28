@@ -1,4 +1,7 @@
 /* ======== seção skills e hobbies ====*/
+.skills__caixa {
+    padding: 16px;
+}
 .skills__conteudo {
     align-items: center;
     justify-content: center;
@@ -17,18 +20,14 @@
     font-weight: bold;
     margin-top: 8px;
 }
+
 /* ===========  mobile  =========*/
-@media screen and (min-width: 0px){
-    .skills__caixa {
-        padding: 16px;
-    }
-    
-}
 @media screen and (max-width: 426px){
     .skill__lista:nth-child(even){
         margin: 24px 0 0;
     }
 }
+
 /* ===========  tabletes  ===========*/
 @media screen and (min-width: 768px){
     .skills__caixa {

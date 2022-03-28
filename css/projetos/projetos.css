@@ -1,0 +1,41 @@
+
+/* =====  seção projetos === */
+.projetos{
+    padding: 32px;
+}
+.projeto__caixa {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 64px;
+}
+.projeto__caixa:last-child{
+    margin: 0;
+}
+
+.projeto__conteudo {
+    width: 100%;
+}
+.projeto__link{
+    align-items: flex-end;
+}
+
+/* ====== Botões projetos ======= */
+.projetos__botao{
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    margin: 8px 16px 0 0;
+    padding: 16px;
+}
+.projetos__botao:hover{
+    background: #D4E4FA;
+}
+
+.projetos__botao--demo{
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: 16px;
+}
+.projetos__botao--demo:hover{
+    background: #5595E9;
+}

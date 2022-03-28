@@ -1,29 +1,23 @@
 
 /* ======== seção sobre mim ====*/
+
 .sobreMin{
     background: #EAF2FD;
 }
-
+.sobreMin__caixa{
+    padding: 16px;
+    
+}
+.sobreMin__texto{
+    margin-top: 16px;
+}
 .sobreMin__assinatura {
     background: url(../img/assinatura-lucas.png) center / cover no-repeat;
     margin-top: 16px;
     width: 140px;
     height: 52px;
 }
-/* ===========  mobile  =========*/
-@media screen and (min-width: 0px){
-    .sobreMin__caixa{
-        padding: 16px;
-        
-    }
-    .sobreMin__texto{
-        margin-top: 16px;
-    }
-}
-/* ===========  tabletes  ===========*/
-@media screen and (min-width: 768px){
-    
-}
+
 /* =========  desktop  ========== */
 @media screen and (min-width: 1024px){
     .sobreMin{

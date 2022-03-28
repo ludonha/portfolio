@@ -3,7 +3,7 @@
 .cabecalho{
     align-items: initial;
     background: #F5F5F5;
-    
+    padding: 16px;
 }
 .cabecalho__barra {
     align-items: center;
@@ -11,6 +11,7 @@
 }
 
 .referencias {
+    display: none;
     margin: 0 32px 0 0;
 }
 
@@ -18,15 +19,7 @@
     font-size: 14px;
     margin: 0;
 }
-/* ===========  mobile  =========*/
-@media screen and (min-width: 0px){
-    .cabecalho{
-        padding: 16px;
-    }
-    .referencias{
-        display: none;
-    }
-}
+
 /* ===========  tabletes  ===========*/
 @media screen and (min-width: 768px){
     .cabecalho{

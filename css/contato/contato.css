@@ -1,0 +1,15 @@
+.contato{
+    background: #eaf2FD;
+    padding: 32px;
+}
+.contato__formulario{
+    align-items: initial;
+    width: 100%;
+}
+.contato__texto{
+    font-weight: 500;
+}
+.contato__texto:nth-of-type(2){
+    margin: 0;
+    padding-bottom: 32px;
+}

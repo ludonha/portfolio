@@ -1,8 +1,8 @@
-var botaoEnviar = document.querySelector('[data-form-botao]');
-
 var formulario = document.getElementById('formulario');
 
-const validaFormulario = () => {
+export var botaoEnviar = document.querySelector('[data-form-botao]');
+
+export const validaFormulario = () => {
 
     if ( formulario.nome.value.trim() === "") {
         console.log("Campo 'nome' não pode estar em branco.")
@@ -18,9 +18,3 @@ const validaFormulario = () => {
 
 
 }
-
-botaoEnviar.addEventListener('click', () =>{
-    
-    validaFormulario()
-
-})

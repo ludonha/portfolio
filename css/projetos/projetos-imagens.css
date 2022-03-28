@@ -1,0 +1,19 @@
+/* ======== Imagens projetos  ======== */
+.projeto__imagem{
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    mix-blend-mode: normal;
+    padding: 16px;
+
+    height: 144px;
+    width: 100%;
+}
+.projeto__imagem--decodificador{
+    background: url(../../img/decoder1.png) center / cover no-repeat;
+    
+    height: 100%;
+}
+.projeto__imagem--jogoDaForca{
+    background: url(../../img/jogo-da-forca1.png) center / cover no-repeat;
+    
+    height: 100%;
+}
